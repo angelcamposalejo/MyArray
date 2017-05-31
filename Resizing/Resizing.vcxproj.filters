@@ -36,6 +36,9 @@
     <ClInclude Include="MyArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MyText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -51,6 +54,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MyArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyText.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
