@@ -10,6 +10,7 @@ public:
 	void set(const wchar_t*texto);
 	void MakeUpperCase();
 	void MakeLowerCase();
+	int ReplaceChar(wchar_t original_character, wchar_t new_character);
 private:
 	const wchar_t*datos;
 };

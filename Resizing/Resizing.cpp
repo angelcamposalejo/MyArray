@@ -24,12 +24,9 @@ void Resizing::Window_Open(Win::Event& e)
 	//Sys::Format(texto, L"%g\r\n", x.data[i]);
 	//tbxSalida.Text += texto;
 	//}
-	MyText m, n;
-	m.set(L"Hello");
-	n.set(L"One");
-	m.MakeUpperCase();
-	n.MakeLowerCase();
-	this->Text = m.Get();
-	this->Text += n.Get();
+	MyText z(L"obuelito");
+	const int numero = z.ReplaceChar('o', 'A');
+	this->Text = z.Get();
+	this->Text += Sys::Convert::ToString(numero);
 }
 
